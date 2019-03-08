@@ -1,66 +1,108 @@
-[
-    {
-        "name": "개발환경 구축하기",
-        "url": "https://www.askcompany.kr/vod/setup/"
-    },
-    {
-        "name": "파이썬 차근차근 시작하기",
-        "url": "https://www.askcompany.kr/vod/python/"
-    },
-    {
-        "name": "크롤링 차근차근 시작하기",
-        "url": "https://www.askcompany.kr/vod/crawling/"
-    },
-    {
-        "name": "파이썬으로 업무 자동화",
-        "url": "https://www.askcompany.kr/vod/automation/"
-    },
-    {
-        "name": "장고 - 기본편",
-        "url": "https://www.askcompany.kr/vod/django/"
-    },
-    {
-        "name": "장고걸스 튜토리얼",
-        "url": "https://www.askcompany.kr/vod/djangogirls/"
-    },
-    {
-        "name": "장고 - Form/ModelForm 잘 알고 쓰기",
-        "url": "https://www.askcompany.kr/vod/form/"
-    },
-    {
-        "name": "장고 - 클래스 기반 뷰. 잘 알고 쓰기",
-        "url": "https://www.askcompany.kr/vod/cbv/"
-    },
-    {
-        "name": "장고 - 결제 시스템 연동",
-        "url": "https://www.askcompany.kr/vod/payment/"
-    },
-    {
-        "name": "장고 - 웹 프론트엔드 시작편",
-        "url": "https://www.askcompany.kr/vod/frontend/"
-    },
-    {
-        "name": "장고 - 다양한 위젯 만들기",
-        "url": "https://www.askcompany.kr/vod/widgets/"
-    },
-    {
-        "name": "장고 - API 서버 만들기 및 초간단 안드로이드 앱 만들기",
-        "url": "https://www.askcompany.kr/vod/apiserver/"
-    },
-    {
-        "name": "장고 - 하이브리드 앱 만들기",
-        "url": "https://www.askcompany.kr/vod/hybrid/"
-    },
-    {
-        "name": "장고 - 서비스 배포하기",
-        "url": "https://www.askcompany.kr/vod/deploy/"
-    },
-    {
-        "name": "장고 - 실전편 (Feat. 배달의 민족 St. 만들기)",
-        "url": "https://www.askcompany.kr/vod/django-baemin/"
-    },
-    {
-        "name": "장고 - 실전편 (Feat. 인스타그램 St. 만들기)",
-        "url": "https://www.askcompany.kr/vod/django-instagram/"
-    }
-]
+{
+    "s2": [
+        {
+            "name": "장고 2.0 주요 변경내역 살펴보기",
+            "url": "https://www.askcompany.kr/r/sections/f04de5e/"
+        },
+        {
+            "name": "(기초편) 장고 차근차근 시작하기 2/E",
+            "url": "https://www.askcompany.kr/r/sections/dfc55e7/"
+        },
+        {
+            "name": "(중급편) 장고 기본인증 뽀개기",
+            "url": "https://www.askcompany.kr/r/sections/5bb1344/"
+        },
+        {
+            "name": "(중급편) 장고 Form/ModelForm 제대로 알고 쓰기",
+            "url": "https://www.askcompany.kr/r/sections/72d2474/"
+        },
+        {
+            "name": "(중급편) 클래스 기반 뷰 잘 알고 쓰기",
+            "url": "https://www.askcompany.kr/r/sections/387169d/"
+        },
+        {
+            "name": "(배포) 빠르게 살펴보는 Azure PaaS를 활용한 인프라 스트레스없는 웹서비스 배포",
+            "url": "https://www.askcompany.kr/r/sections/7d64b4a/"
+        },
+        {
+            "name": "(초급) Pandas 워밍업",
+            "url": "https://www.askcompany.kr/r/sections/f5bf323/"
+        },
+        {
+            "name": "(초급) 10 Minutes to Pandas 따라하기",
+            "url": "https://www.askcompany.kr/r/sections/d8ccb08/"
+        },
+        {
+            "name": "Google Dialogflow와 파이썬/장고를 활용하여, 카카오톡 챗봇 만들기 (초급편)",
+            "url": "https://www.askcompany.kr/r/sections/d47e585/"
+        }
+    ],
+    "s1": [
+        {
+            "name": "개발환경 구축하기",
+            "url": "https://www.askcompany.kr/vod/setup/"
+        },
+        {
+            "name": "파이썬 차근차근 시작하기",
+            "url": "https://www.askcompany.kr/vod/python/"
+        },
+        {
+            "name": "크롤링 차근차근 시작하기",
+            "url": "https://www.askcompany.kr/vod/crawling/"
+        },
+        {
+            "name": "파이썬으로 업무 자동화",
+            "url": "https://www.askcompany.kr/vod/automation/"
+        },
+        {
+            "name": "장고 - 기본편",
+            "url": "https://www.askcompany.kr/vod/django/"
+        },
+        {
+            "name": "장고걸스 튜토리얼",
+            "url": "https://www.askcompany.kr/vod/djangogirls/"
+        },
+        {
+            "name": "장고 - Form/ModelForm 잘 알고 쓰기",
+            "url": "https://www.askcompany.kr/vod/form/"
+        },
+        {
+            "name": "장고 - 클래스 기반 뷰. 잘 알고 쓰기",
+            "url": "https://www.askcompany.kr/vod/cbv/"
+        },
+        {
+            "name": "장고 - 결제 시스템 연동",
+            "url": "https://www.askcompany.kr/vod/payment/"
+        },
+        {
+            "name": "장고 - 웹 프론트엔드 시작편",
+            "url": "https://www.askcompany.kr/vod/frontend/"
+        },
+        {
+            "name": "장고 - 다양한 위젯 만들기",
+            "url": "https://www.askcompany.kr/vod/widgets/"
+        },
+        {
+            "name": "장고 - API 서버 만들기 및 초간단 안드로이드 앱 만들기",
+            "url": "https://www.askcompany.kr/vod/apiserver/"
+        },
+        {
+            "name": "장고 - 하이브리드 앱 만들기",
+            "url": "https://www.askcompany.kr/vod/hybrid/"
+        },
+        {
+            "name": "장고 - 서비스 배포하기",
+            "url": "https://www.askcompany.kr/vod/deploy/"
+        },
+        {
+            "name": "장고 - 실전편 (Feat. 배달의 민족 St. 만들기)",
+            "url": "https://www.askcompany.kr/vod/django-baemin/"
+        },
+        {
+            "name": "장고 - 실전편 (Feat. 인스타그램 St. 만들기)",
+            "url": "https://www.askcompany.kr/vod/django-instagram/"
+        }
+    ]
+    
+}
+

@@ -11,7 +11,23 @@
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script>
 $(function() {
-    var courses = [
+    var s2_courses = [
+        { "name": "장고 2.0 주요 변경내역 살펴보기", "url": "https://www.askcompany.kr/r/sections/f04de5e/" },
+        { "name": "(기초편) 장고 차근차근 시작하기 2/E", "url": "https://www.askcompany.kr/r/sections/dfc55e7/" },
+        { "name": "(중급편) 장고 기본인증 뽀개기", "url": "https://www.askcompany.kr/r/sections/5bb1344/" },
+        { "name": "(중급편) 장고 Form/ModelForm 제대로 알고 쓰기", "url": "https://www.askcompany.kr/r/sections/72d2474/" },
+        { "name": "(중급편) 클래스 기반 뷰 잘 알고 쓰기", "url": "https://www.askcompany.kr/r/sections/387169d/" },
+        { "name": "(배포) 빠르게 살펴보는 Azure PaaS를 활용한 인프라 스트레스없는 웹서비스 배포", "url": "https://www.askcompany.kr/r/sections/7d64b4a/" },
+        { "name": "(초급) Pandas 워밍업", "url": "https://www.askcompany.kr/r/sections/f5bf323/" },
+        { "name": "(초급) 10 Minutes to Pandas 따라하기", "url": "https://www.askcompany.kr/r/sections/d8ccb08/" },
+        { "name": "Google Dialogflow와 파이썬/장고를 활용하여, 카카오톡 챗봇 만들기 (초급편)", "url": "https://www.askcompany.kr/r/sections/d47e585/" }
+    ];
+    $.each(s2_courses, function(idx, course) {
+        var html = '<li class="course"><a href="' + course.url + '">' + course.name + '</a></li>';
+        $('#s2_course_list').append($(html));
+    });
+
+    var s1_courses = [
         {"name": "개발환경 구축하기", "url": "https://www.askcompany.kr/vod/setup/"},
         {"name": "파이썬 차근차근 시작하기", "url": "https://www.askcompany.kr/vod/python/"},
         {"name": "크롤링 차근차근 시작하기", "url": "https://www.askcompany.kr/vod/crawling/"},
@@ -29,9 +45,9 @@ $(function() {
         {"name": "장고 - 실전편 (Feat. 배달의 민족 St. 만들기)", "url": "https://www.askcompany.kr/vod/django-baemin/"},
         {"name": "장고 - 실전편 (Feat. 인스타그램 St. 만들기)", "url": "https://www.askcompany.kr/vod/django-instagram/"}
     ];
-    $.each(courses, function(idx, course) {
+    $.each(s1_courses, function(idx, course) {
         var html = '<li class="course"><a href="' + course.url + '">' + course.name + '</a></li>';
-        $('#course_list').append($(html));
+        $('#s1_course_list').append($(html));
     });
 });
 </script>
@@ -41,10 +57,15 @@ $(function() {
 
 <h2>[레벨3] 자바스크립트 렌더링 크롤링</h2>
 
-<p>본 페이지는 Ajax를 통해 데이터를 받아와서, 자바스크립트로 컨텐츠가 추가됩니다.</p>
+<p>본 페이지는 자바스크립트 객체를 통해 컨텐츠가 추가됩니다.</p>
 
-<ul id="course_list">
-</ul>
+<h3>시즌2</h3>
+
+<ul id="s2_course_list"></ul>
+
+<h3>시즌1</h3>
+
+<ul id="s1_course_list"></ul>
 
 <img src="https://askcompanyjpe.blob.core.windows.net/static/askcompany-og.jpg" id="logo" />
 
@@ -60,6 +81,15 @@ $(function() {
 실행 예시
 
 <pre>
+    장고 2.0 주요 변경내역 살펴보기 https://www.askcompany.kr/r/sections/f04de5e/
+    (기초편) 장고 차근차근 시작하기 2/E https://www.askcompany.kr/r/sections/dfc55e7/
+    (중급편) 장고 기본인증 뽀개기 https://www.askcompany.kr/r/sections/5bb1344/
+    (중급편) 장고 Form/ModelForm 제대로 알고 쓰기 https://www.askcompany.kr/r/sections/72d2474/
+    (중급편) 클래스 기반 뷰 잘 알고 쓰기 https://www.askcompany.kr/r/sections/387169d/
+    (배포) 빠르게 살펴보는 Azure PaaS를 활용한 인프라 스트레스없는 웹서비스 배포 https://www.askcompany.kr/r/sections/7d64b4a/
+    (초급) Pandas 워밍업 https://www.askcompany.kr/r/sections/f5bf323/
+    (초급) 10 Minutes to Pandas 따라하기 https://www.askcompany.kr/r/sections/d8ccb08/
+    Google Dialogflow와 파이썬/장고를 활용하여, 카카오톡 챗봇 만들기 (초급편) https://www.askcompany.kr/r/sections/d47e585/
     개발환경 구축하기 https://www.askcompany.kr/vod/setup/
     파이썬 차근차근 시작하기 https://www.askcompany.kr/vod/python/
     크롤링 차근차근 시작하기 https://www.askcompany.kr/vod/crawling/
@@ -88,7 +118,7 @@ $(function() {
     <p>
     &copy;
     <script>document.write((new Date()).getYear() + 1900);</script>
-    SHAKEADE
+    Ask Company
 </p>
 </body>
 </html>
